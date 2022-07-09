@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    outline: solid;
+    padding: 1rem;
+    justify-content: space-between;
+
+}
+
+.nav--logo.cont {
+    display: flex;
+    outline: solid;
+    padding: 1%;
+    justify-content: space-evenly;
+    width: 40%;
+    gap: 2%;
+}
+
+.nav--search {
+    width: min(90%, 50rem);
+    min-width: 10rem;
+
+}
+
+.nav--items {
+    display: flex;
+    outline: solid;
+    justify-content: space-evenly;
+    width: 25rem;
+    list-style: none;
+    /* margin-left: 55%; */
+}
+
+
